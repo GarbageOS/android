@@ -2,5 +2,7 @@
 <manifest>
   <project path="android" name="GarbageOS/android" remote="garbage" />
   <project path="packages/apps/crDroidSettings" name="GarbageOS/android_packages_apps_crDroidSettings" remote="garbage" />
+  <project path="frameworks/base" name="GarbageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="garbage" />
+
 
 </manifest>
