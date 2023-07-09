@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project path="android" name="GarbageOS/android" remote="garbage" />
+  <project path="packages/apps/crDroidSettings" name="GarbageOS/android_packages_apps_crDroidSettings" remote="garbage" />
+
 </manifest>
