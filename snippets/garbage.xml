@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project path="android" name="GarbageOS/android" remote="garbage" />
+  <!-- Packages -->
   <project path="packages/apps/crDroidSettings" name="GarbageOS/android_packages_apps_crDroidSettings" remote="garbage" />
+  <project path="packages/apps/Via" name="GarbageOS/android_packages_apps_Via" remote="garbage" />
+  <!-- Frameworks -->
   <project path="frameworks/base" name="GarbageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="garbage" />
 
 
