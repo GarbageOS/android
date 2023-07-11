@@ -10,4 +10,5 @@
   <project path="frameworks/proto_logging" name="GarbageOS/android_frameworks_proto_logging" groups="pdk-cw-fs,pdk-fs" remote="garbage" />
   <!-- Vendor -->
   <project path="vendor/lineage" name="GarbageOS/android_vendor_garbage" remote="garbage" />
+  <project path="vendor/support" name="GarbageOS/android_vendor_support" remote="garbage" />
 </manifest>
