@@ -4,6 +4,7 @@
   <!-- Packages -->
   <project path="packages/apps/crDroidSettings" name="GarbageOS/android_packages_apps_crDroidSettings" remote="garbage" />
   <project path="packages/apps/Via" name="GarbageOS/android_packages_apps_Via" remote="garbage" />
+  <project path="packages/modules/NetworkStack" name="GarbageOS/android_packages_modules_NetworkStack" remote="garbage" />
   <!-- Frameworks -->
   <project path="frameworks/base" name="GarbageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="garbage" />
 
