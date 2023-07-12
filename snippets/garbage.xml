@@ -6,6 +6,7 @@
   <project path="packages/apps/Via" name="GarbageOS/android_packages_apps_Via" remote="garbage" />
   <project path="packages/modules/NetworkStack" name="GarbageOS/android_packages_modules_NetworkStack" remote="garbage" />
   <project path="packages/apps/Settings" name="GarbageOS/android_packages_apps_Settings" groups="pdk-fs" remote="garbage" />
+  <project path="packages/apps/Launcher3" name="GarbageOS/android_packages_apps_Launcher3" remote="garbage" />
   <!-- Frameworks -->
   <project path="frameworks/base" name="GarbageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="garbage" />
   <project path="frameworks/proto_logging" name="GarbageOS/android_frameworks_proto_logging" groups="pdk-cw-fs,pdk-fs" remote="garbage" />
