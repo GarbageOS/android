@@ -4,7 +4,6 @@
   <remote name="github"
            fetch="https://github.com/"
            sync-c="true"
-           sync-j="4"
            revision="refs/heads/lineage-20.0" />
 
   <remote  name="private"
@@ -17,19 +16,21 @@
 
   <default revision="refs/heads/lineage-20.0"
            remote="github"
-           sync-c="true"
-           sync-j="4" />
+           sync-c="true" />
 
   <remote  name="crdroid"
            fetch="https://github.com/"
            sync-c="true"
-           sync-j="4"
            revision="refs/heads/13.0" />
 
   <remote  name="crdroid-gitlab"
            fetch="https://gitlab.com/"
            sync-c="true"
-           sync-j="4"
+           revision="refs/heads/13.0" />
+
+  <remote  name="garbage"
+           fetch="https://github.com/"
+           sync-c="true"
            revision="refs/heads/13.0" />
 
   <superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r61" />
@@ -1144,5 +1145,6 @@
 
   <include name="snippets/crdroid.xml" />
   <include name="snippets/lineage.xml" />
+  <include name="snippets/garbage.xml" />
   <!--<include name="snippets/pixel.xml" />-->
 </manifest>
